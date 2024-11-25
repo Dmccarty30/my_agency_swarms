@@ -1,6 +1,7 @@
 # Swarms Multi-Agent Permissions System (SMAPS)
 
 ## Description
+
 SMAPS is a robust permissions management system designed to integrate seamlessly with Swarm's multi-agent AI framework. Drawing inspiration from Amazon's IAM, SMAPS ensures secure, granular control over agent actions while allowing for collaborative human-in-the-loop interventions.
 
 ## Technical Specification
@@ -47,4 +48,5 @@ SMAPS is a robust permissions management system designed to integrate seamlessly
 - **SDK**: Provide software development kits for popular programming languages to facilitate integration and extension.
 
 ## Documentation Description
+
 Swarms Multi-Agent Permissions System (SMAPS) offers a sophisticated permissions management mechanism tailored for multi-agent AI frameworks. It combines the robustness of Amazon IAM-like permissions with a unique "multiplayer" feature, allowing multiple humans to collaboratively guide AI agents in real-time. This ensures not only that tasks are executed efficiently but also that they uphold the highest standards of accuracy and ethics. With SMAPS, businesses can harness the power of swarms with confidence, knowing that they have full control and transparency over their AI operations.

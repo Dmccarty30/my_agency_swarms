@@ -1,9 +1,8 @@
 # Docker Setup Guide for Contributors to Swarms
 
-
 Welcome to the `swarms` project Docker setup guide. This document will help you establish a Docker-based environment for contributing to `swarms`. Docker provides a consistent and isolated environment, ensuring that all contributors can work in the same settings, reducing the "it works on my machine" syndrome.
 
-### Purpose
+## Purpose
 
 The purpose of this guide is to:
 
@@ -21,7 +20,6 @@ This guide covers:
 - Running the `swarms` application in a Docker container
 - Running tests using Docker
 - Pushing changes and working with Docker Hub
-
 
 ## Docker Installation
 
@@ -103,7 +101,6 @@ docker run -it --rm swarms-dev
 
 - Introduce Docker Compose and its role in simplifying multi-container setups.
 - Create a `docker-compose.yml` file for the `swarms` project.
-
 
 ## Dockerfile
 

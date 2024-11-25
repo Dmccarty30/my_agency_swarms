@@ -8,7 +8,6 @@ The `Artifact` class is particularly useful in contexts where file version contr
 
 ### Artifact
 
-
 | Attribute   | Type                | Default Value    | Description                                      |
 |-------------|---------------------|------------------|--------------------------------------------------|
 | `file_path` | `str`               | N/A              | The path to the file.                            |
@@ -40,10 +39,11 @@ The `Artifact` class includes various methods for creating, editing, saving, loa
 ```python
 artifact = Artifact(file_path="example.txt", file_type="txt")
 artifact.create(initial_content="Initial file content")
-```
-The file type parameter supports the following file types: `.txt`, `.md`, `.py`, `.pdf`.
-#### `edit`
+````
 
+The file type parameter supports the following file types: `.txt`, `.md`, `.py`, `.pdf`.
+
+#### `edit`
 
 | Parameter     | Type   | Description                            |
 |---------------|--------|----------------------------------------|
@@ -73,7 +73,6 @@ artifact.load()
 
 #### `get_version`
 
-
 | Parameter         | Type  | Description                             |
 |-------------------|-------|-----------------------------------------|
 | `version_number`  | `int` | The version number to retrieve.         |
@@ -94,7 +93,6 @@ current_contents = artifact.get_contents()
 
 #### `get_version_history`
 
-
 **Usage Example:**
 
 ```python
@@ -102,7 +100,6 @@ version_history = artifact.get_version_history()
 ```
 
 #### `export_to_json`
-
 
 | Parameter   | Type  | Description                                  |
 |-------------|-------|----------------------------------------------|
@@ -115,7 +112,6 @@ artifact.export_to_json(file_path="artifact.json")
 ```
 
 #### `import_from_json`
-
 
 | Parameter   | Type  | Description                                      |
 |-------------|-------|--------------------------------------------------|

@@ -11,13 +11,16 @@ Create a `.env` file in your project's root directory to configure the Swarms fr
 ### Core Variables
 
 #### `WORKSPACE_DIR`
+
 - **Purpose**: Defines the directory where all agent states and execution logs are stored
 - **Type**: String (path)
 - **Default**: `./workspace`
-- **Example**: 
+- **Example**:
+
 ```bash
 WORKSPACE_DIR=/path/to/your/workspace
 ```
+
 - **Usage**:
   - Stores JSON files containing agent states
   - Maintains execution history
@@ -25,13 +28,16 @@ WORKSPACE_DIR=/path/to/your/workspace
   - Preserves conversation logs
 
 #### `SWARMS_AUTOUPDATE_ON`
+
 - **Purpose**: Controls automatic updates of the Swarms framework
 - **Type**: Boolean
 - **Default**: `false`
 - **Example**:
+
 ```bash
 SWARMS_AUTOUPDATE_ON=true
 ```
+
 - **Features**:
   - Automatically updates to the latest stable version
   - Ensures you have the newest features
@@ -46,13 +52,16 @@ SWARMS_AUTOUPDATE_ON=true
 ### Telemetry Configuration
 
 #### `USE_TELEMETRY`
+
 - **Purpose**: Controls whether telemetry data is collected
 - **Type**: Boolean
 - **Default**: `false`
 - **Example**:
+
 ```bash
 USE_TELEMETRY=true
 ```
+
 - **Data Collected**:
   - Agent performance metrics
   - Execution time statistics
@@ -63,13 +72,16 @@ USE_TELEMETRY=true
 ### Analytics Integration
 
 #### `SWARMS_API_KEY`
+
 - **Purpose**: Authentication key for the Swarms Analytics Suite
 - **Type**: String
 - **Required**: Yes, for analytics features
 - **Example**:
+
 ```bash
 SWARMS_API_KEY=your_api_key_here
 ```
+
 - **Features**:
   - Real-time agent execution tracking
   - Usage analytics
@@ -80,11 +92,13 @@ SWARMS_API_KEY=your_api_key_here
 ## Getting Started
 
 1. Create a new `.env` file:
+
 ```bash
 touch .env
 ```
 
 2. Add your configuration:
+
 ```bash
 # Basic configuration
 WORKSPACE_DIR=./my_workspace
@@ -131,6 +145,7 @@ SWARMS_API_KEY=your_api_key_here
 ## Examples
 
 ### Basic Development Setup
+
 ```bash
 WORKSPACE_DIR=./dev_workspace
 SWARMS_AUTOUPDATE_ON=true
@@ -139,6 +154,7 @@ SWARMS_API_KEY=sk_test_xxxxxxxxxxxx
 ```
 
 ### Production Setup
+
 ```bash
 WORKSPACE_DIR=/var/log/swarms/prod_workspace
 SWARMS_AUTOUPDATE_ON=false
@@ -147,6 +163,7 @@ SWARMS_API_KEY=sk_prod_xxxxxxxxxxxx
 ```
 
 ### Testing Environment
+
 ```bash
 WORKSPACE_DIR=./test_workspace
 SWARMS_AUTOUPDATE_ON=true

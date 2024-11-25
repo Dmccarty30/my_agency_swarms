@@ -28,7 +28,7 @@ poetry run swarms help
 
 When running `swarms help`, you'll see the following output:
 
-```
+````
   _________                                     
  /   _____/_  _  _______ _______  _____   ______
  \_____  \ \/ \/ /\__  \_  __ \/     \ /  ___/
@@ -59,6 +59,7 @@ Below is a detailed explanation of the available commands:
   Starts the onboarding process to help you set up your environment and configure your agents.
   
   Usage:
+
   ```bash
   swarms onboarding
   ```
@@ -67,6 +68,7 @@ Below is a detailed explanation of the available commands:
   Displays the help message, including a list of available commands.
 
   Usage:
+
   ```bash
   swarms help
   ```
@@ -75,6 +77,7 @@ Below is a detailed explanation of the available commands:
   Retrieves your API key from the platform, allowing your agents to communicate with the Swarms platform.
 
   Usage:
+
   ```bash
   swarms get-api-key
   ```
@@ -83,6 +86,7 @@ Below is a detailed explanation of the available commands:
   Verifies if you are logged into the platform and starts the cache for storing your login session.
 
   Usage:
+
   ```bash
   swarms check-login
   ```
@@ -91,6 +95,7 @@ Below is a detailed explanation of the available commands:
   Redirects you to the official Swarms documentation on the web for further reading.
 
   Usage:
+
   ```bash
   swarms read-docs
   ```
@@ -99,6 +104,7 @@ Below is a detailed explanation of the available commands:
   Executes your agents from the `agents.yaml` configuration file, which defines the structure and behavior of your agents. Refer to this document for how to leverage yamls for fast, reliable, and simple agent orchestration. [CLICK HERE](https://docs.swarms.world/en/latest/swarms/agents/create_agents_yaml/) You can customize what yaml file to run with `--yaml-file`
 
   Usage:
+
   ```bash
   swarms run-agents --yaml-file agents.yaml
   ```

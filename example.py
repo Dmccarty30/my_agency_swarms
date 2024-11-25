@@ -15,7 +15,9 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 # Create an instance of the OpenAIChat class
 model = OpenAIChat(
-    openai_api_key=api_key, model_name="gpt-4o-mini", temperature=0.1
+    openai_api_key=api_key, 
+    model_name="gpt-4o-mini", 
+    temperature=0.1
 )
 
 # Initialize the agent
@@ -29,7 +31,7 @@ agent = Agent(
     verbose=True,
     dynamic_temperature_enabled=True,
     saved_state_path="finance_agent.json",
-    user_name="swarms_corp",
+    user_name="SweetP",
     retry_attempts=1,
     streaming_on=True,
     context_length=200000,

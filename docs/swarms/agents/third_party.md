@@ -1,8 +1,8 @@
 # Swarms Framework: Integrating and Customizing Agent Libraries
 
-Agent-based systems have emerged as a powerful paradigm for solving complex problems and automating tasks. 
+Agent-based systems have emerged as a powerful paradigm for solving complex problems and automating tasks.
 
-The swarms framework offers a flexible and extensible approach to working with various agent libraries, allowing developers to create custom agents and integrate them seamlessly into their projects. 
+The swarms framework offers a flexible and extensible approach to working with various agent libraries, allowing developers to create custom agents and integrate them seamlessly into their projects.
 
 In this comprehensive guide, we'll explore the swarms framework, discuss agent handling, and demonstrate how to build custom agents using swarms. We'll also cover the integration of popular agent libraries such as Langchain, Griptape, CrewAI, and Autogen.
 
@@ -379,7 +379,6 @@ class AgentFactory:
 agent = AgentFactory.create_agent("griptape", "DynamicGriptapeAgent")
 ```
 
-
 ### 2. Agent Pooling
 
 Implement an agent pool to manage and reuse agents efficiently:
@@ -509,9 +508,11 @@ logging.basicConfig(level=logging.INFO)
 monitored_agent = MonitoredAgent("MonitoredGriptapeAgent")
 result = monitored_agent.run("Summarize the latest AI research papers")
 ```
-Additionally the Agent class now includes built-in logging functionality and the ability to switch between JSON and string output. 
+
+Additionally the Agent class now includes built-in logging functionality and the ability to switch between JSON and string output.
 
 To switch between JSON and string output:
+
 - Use `output_type="str"` for string output (default)
 - Use `output_type="json"` for JSON output
 
@@ -583,6 +584,7 @@ print(result)
 ```
 
 This example demonstrates several best practices:
+
 - Modular design with separate methods for initialization and task processing
 - Consistent interface adhering to the swarms framework
 - Error handling and logging

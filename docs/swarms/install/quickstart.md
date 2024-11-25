@@ -1,12 +1,13 @@
-## Quickstart
+# Quickstart
 
 **Swarms** is an enterprise-grade, production-ready multi-agent collaboration framework that enables you to orchestrate agents to work collaboratively at scale to automate real-world activities. Follow this quickstart guide to get up and running with Swarms, including setting up your environment, building an agent, and leveraging multi-agent methods.
 
-### **Requirements**
+## **Requirements**
 
 - Python 3.10 or above
 - `.env` file with API keys from your providers like `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`
 - Set an environment variable for your workspace directory:
+
   ```bash
   WORKSPACE_DIR="agent_workspace"
   ```
@@ -14,8 +15,9 @@
 ### **Installation**
 
 To install Swarms, run:
+
 ```bash
-$ pip install -U swarms
+pip install -U swarms
 ```
 
 ### **Usage Example: Single Agent**
@@ -70,7 +72,6 @@ print(out)
 
 ## Creating Agents from YAML
 
-
 ### Step 1: Define Your Agents in a YAML File
 
 The `create_agents_from_yaml` function works by reading agent configurations from a YAML file. Below is an example of what your YAML file (`agents_config.yaml`) should look like this. Example YAML Configuration (`agents_config.yaml`):
@@ -118,7 +119,8 @@ agents:
     task: "What is the best strategy for long-term stock investment?"
 ```
 
-### Key Configuration Fields:
+### Key Configuration Fields
+
 - **agent_name**: Name of the agent.
 - **model**: Defines the language model settings (e.g., API key, model name, temperature, and max tokens).
 - **system_prompt**: The system prompt used to guide the agent’s behavior.
@@ -130,7 +132,8 @@ agents:
 
 Now, create the main Python script that will use the `create_agents_from_yaml` function.
 
-### `main.py`:
+### `main.py`
+
 ```python
 import os
 
@@ -169,13 +172,14 @@ except Exception as e:
 
 ```
 
-### Example Run:
+### Example Run
 
 ```bash
 python main.py
 ```
 
 This will:
+
 1. Load agent configurations from `agents_config.yaml`.
 2. Create the agents specified in the YAML file.
 3. Run the tasks provided for each agent.
@@ -213,7 +217,6 @@ agents, task_results = create_agents_from_yaml(yaml_file, return_type="both")
 # Process agents and tasks separately
 ```
 
-
 ## Step 4: YAML Structure for Multiple Agents
 
 The YAML file can define any number of agents, each with its own unique configuration. You can scale this setup by adding more agents and tasks to the `agents` list within the YAML file.
@@ -235,21 +238,20 @@ Each agent will be initialized according to its configuration, and tasks (if pro
 ---
 
 ## Integrating External Agents
+
 Integrating external agents from other agent frameworks is easy with swarms.
 
 Steps:
 
 1. Create a new class that inherits `Agent`
-2. Create a `.run(task: str) -> str` method that runs the agent and returns the response. 
+2. Create a `.run(task: str) -> str` method that runs the agent and returns the response.
 3. The new Agent must return a string of the response. But you may add additional methods to save the output to JSON.
-
 
 ### Griptape Example
 
 For example, here's an example on how to create an agent from griptape.
 
 Here’s how you can create a custom **Griptape** agent that integrates with the **Swarms** framework by inheriting from the `Agent` class in **Swarms** and overriding the `run(task: str) -> str` method.
-
 
 ```python
 from swarms import (
@@ -299,25 +301,23 @@ output = griptape_swarms_agent.run(
 print(output)
 ```
 
-### Key Components:
+### Key Components
+
 1. **GriptapeSwarmsAgent**: A custom class that inherits from the `SwarmsAgent` class and integrates the Griptape agent.
 2. **run(task: str) -> str**: A method that takes a task string, processes it (e.g., splitting into a URL and filename), and runs the Griptape agent with the provided inputs.
 3. **Griptape Tools**: The tools integrated into the Griptape agent (e.g., `WebScraperTool`, `PromptSummaryTool`, `FileManagerTool`) allow for web scraping, summarization, and file management.
 
 You can now easily plug this custom Griptape agent into the **Swarms Framework** and use it to run tasks!
 
-
-
-
-
 ## Overview of Swarm Architectures in the Swarms Framework
+
 ---
 
 ### 1. **Sequential Workflow**
 
 **Overview**: The `SequentialWorkflow` enables tasks to be executed one after the other. Each agent processes its task and passes the output to the next agent in the sequence.
 
-#### Mermaid Graph:
+#### Mermaid Graph
 
 ```mermaid
 graph TD;
@@ -326,7 +326,7 @@ graph TD;
     C --> D[Task Output];
 ```
 
-#### Code Example:
+#### Code Example
 
 ```python
 from swarms import Agent, SequentialWorkflow
@@ -350,7 +350,7 @@ print(output)
 
 **Overview**: `AgentRearrange` allows the orchestration of agents in both sequential and parallel configurations. The user can define a flexible flow of tasks between agents.
 
-#### Mermaid Graph:
+#### Mermaid Graph
 
 ```mermaid
 graph TD;
@@ -360,7 +360,7 @@ graph TD;
     C --> D[Task Completed];
 ```
 
-#### Code Example:
+#### Code Example
 
 ```python
 from swarms import Agent, AgentRearrange
@@ -388,7 +388,7 @@ print(output)
 
 **Overview**: `MixtureOfAgents` is a parallelized architecture where agents perform tasks concurrently and then feed their results back into a loop for final aggregation. This is useful for highly parallelizable tasks.
 
-#### Mermaid Graph:
+#### Mermaid Graph
 
 ```mermaid
 graph TD;
@@ -398,7 +398,7 @@ graph TD;
     C --> D[Final Aggregation];
 ```
 
-#### Code Example:
+#### Code Example
 
 ```python
 from swarms import Agent, OpenAIChat, MixtureOfAgents
@@ -422,7 +422,7 @@ print(output)
 
 **Overview**: `SpreadSheetSwarm` enables the management of thousands of agents simultaneously, where each agent operates on its own thread. It’s ideal for overseeing large-scale agent outputs.
 
-#### Mermaid Graph:
+#### Mermaid Graph
 
 ```mermaid
 graph TD;
@@ -433,7 +433,7 @@ graph TD;
     A --> F[Email Agent];
 ```
 
-#### Code Example:
+#### Code Example
 
 ```python
 from swarms import Agent
@@ -461,8 +461,8 @@ swarm.run("Create posts to promote luxury properties in North Texas.")
 
 These are the key swarm architectures available in the **Swarms Framework**. Each one is designed to solve different types of multi-agent orchestration problems, from sequential tasks to large-scale parallel processing.
 
-
 ### Overview of Swarm Architectures
+
 #### **Workflow Classes**
 
 - **SequentialWorkflow:**
@@ -478,4 +478,3 @@ These are the key swarm architectures available in the **Swarms Framework**. Eac
   
 - **Spreadsheet Swarm:**
   - A large-scale swarm architecture for managing multiple agents working concurrently.
-
