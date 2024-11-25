@@ -79,7 +79,7 @@ profile_analyzer_agent = Agent(
     saved_state_path="profile_analyzer_agent.json",
     user_name="student",
     context_length=200000,
-    output_type="string",
+    output_type="enum",
 )
 
 # College Research Agent
@@ -102,7 +102,7 @@ college_research_agent = Agent(
     saved_state_path="college_research_agent.json",
     user_name="researcher",
     context_length=200000,
-    output_type="string",
+    output_type="enum",
 )
 
 # College Match Agent
@@ -125,7 +125,7 @@ college_match_agent = Agent(
     saved_state_path="college_match_agent.json",
     user_name="matcher",
     context_length=200000,
-    output_type="string",
+    output_type="enum",
 )
 
 # Debate Moderator Agent
@@ -148,7 +148,7 @@ debate_moderator_agent = Agent(
     saved_state_path="debate_moderator_agent.json",
     user_name="moderator",
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 # Critique Agent
@@ -171,7 +171,7 @@ critique_agent = Agent(
     saved_state_path="critique_agent.json",
     user_name="critic",
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 # Final Decision Agent
@@ -196,7 +196,7 @@ final_decision_agent = Agent(
     saved_state_path="final_decision_agent.json",
     user_name="decision_maker",
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 # Initialize the Sequential Workflow

@@ -12,6 +12,7 @@ from swarms.schemas.agent_step_schemas import ManySteps
 from swarms.structs.agent import Agent
 from swarms.structs.agents_available import showcase_available_agents
 from swarms.structs.base_swarm import BaseSwarm
+from swarms.structs.enum import OutputTypeEnum
 from swarms.utils.add_docs_to_agents import handle_input_docs
 from swarms.utils.wrapper_clusterop import (
     exec_callable_with_clusterops,
@@ -118,7 +119,7 @@ class AgentRearrange(BaseSwarm):
             Callable[[str], str]
         ] = None,
         return_json: bool = False,
-        output_type: OutputType = "final",
+        output_type: OutputTypeEnum = OutputTypeEnum.JSON,
         docs: List[str] = None,
         doc_folder: str = None,
         *args,
@@ -163,7 +164,7 @@ class AgentRearrange(BaseSwarm):
             description=self.description,
             flow=self.flow,
             max_loops=self.max_loops,
-            output_type=self.output_type,
+            output_type=self.OutputTypeEnum.JSON,
         )
 
         # Output schema

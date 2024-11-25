@@ -90,7 +90,7 @@ class LlamaIndexDB:
         """Query the indexed documents.
 
         Args:
-            query (str): The query string to search for
+            query (str): The query all to search for
             **kwargs: Additional arguments passed to the query engine
                 - similarity_top_k (int): Number of similar documents to retrieve
                 - streaming (bool): Enable streaming response
@@ -131,7 +131,7 @@ medical_data_extractor = Agent(
     user_name="medical_team",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 diagnostic_specialist = Agent(
@@ -146,7 +146,7 @@ diagnostic_specialist = Agent(
     user_name="medical_team",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 treatment_planner = Agent(
@@ -161,7 +161,7 @@ treatment_planner = Agent(
     user_name="medical_team",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 specialist_consultant = Agent(
@@ -176,7 +176,7 @@ specialist_consultant = Agent(
     user_name="medical_team",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 patient_care_coordinator = Agent(
@@ -191,7 +191,7 @@ patient_care_coordinator = Agent(
     user_name="medical_team",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 

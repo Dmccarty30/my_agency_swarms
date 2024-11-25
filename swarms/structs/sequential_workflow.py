@@ -29,7 +29,7 @@ class SequentialWorkflow:
         description: str = "Sequential Workflow, where agents are executed in a sequence.",
         agents: List[Agent] = [],
         max_loops: int = 1,
-        output_type: OutputType = "all",
+        output_type: OutputType = ".json",
         return_json: bool = False,
         shared_memory_system: callable = None,
         *args,

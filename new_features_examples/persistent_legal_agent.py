@@ -49,7 +49,7 @@ def create_vc_legal_agent():
         retry_attempts=3,
         context_length=200000,
         return_step_meta=True,
-        output_type="string",
+        output_type="all",
         streaming_on=False,
     )
 

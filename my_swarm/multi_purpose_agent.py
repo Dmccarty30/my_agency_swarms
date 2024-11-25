@@ -51,7 +51,7 @@ multi_purpose_agent = Agent(
     user_name="research_team",
     retry_attempts=2,
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 def execute_task(task_description: str):
