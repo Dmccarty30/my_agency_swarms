@@ -102,7 +102,7 @@ composer_agent = Agent(
     user_name="research_team",
     retry_attempts=1,
     context_length=200000,
-    output_type="md",
+    output_type=".txt",
 )
 
 # Initialize the Swarm Router with the defined agents

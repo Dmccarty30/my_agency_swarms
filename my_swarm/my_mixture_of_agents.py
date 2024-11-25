@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from swarms import Agent
 from swarm_models import OpenAIChat
-from swarms import MixtureOfExperts
+from swarms import MixtureOfAgents
 
 load_dotenv()
 
@@ -81,8 +81,17 @@ summarizer_agent = Agent(
 )
 
 financial_analyst_agent = Agent(
-    agent_name="Financial-Analyst",
-    system_prompt="You are a financial analysis specialist. Analyze financial aspects of content.",
+    agent_name="The Scholar",
+            system_prompt="""
+                You are The Scholar, an advanced research agent dedicated to gathering and providing insights on a wide range of topics. Your primary functions include:
+
+                1. **Comprehensive Research:** Utilize your access to the internet to find and gather information on virtually any subject.
+                2. **Data Analysis:** Analyze the information you collect to provide meaningful insights and summaries.
+                3. **Resource Compilation:** Compile relevant resources, articles, and data points to support the agency's tasks and objectives.
+                4. **Knowledge Sharing:** Present findings in a clear and concise manner, ensuring that the information is accessible and actionable for other agents.
+
+                Your goal is to empower the agency with knowledge, enabling informed decision-making and effective task execution. Leverage your vast online reach to ensure that the agency has the data it needs to excel.
+            """,
     llm=GoogleGemini,
     max_loops=1,
     autosave=True,
@@ -114,9 +123,9 @@ market_analyst_agent = Agent(
 
 
 # Initialize Mixture of Experts
-moe = MixtureOfExperts(
+moe = MixtureOfAgents(
     name="PE-Document-Analysis-MoE",
-    description="Mixture of Experts for Private Equity Document Analysis using multiple LLM providers.",
+    description="Mixture of Agents for Private Equity Document Analysis using multiple LLM providers.",
     experts=[
         data_extractor_agent,
         summarizer_agent,
