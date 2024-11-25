@@ -4,7 +4,7 @@ The `ToolAgent` class is a specialized agent that facilitates the execution of s
 
 The `ToolAgent` class plays a crucial role in leveraging pre-trained models and tokenizers to automate tasks that require the interpretation and generation of structured data. By providing a flexible interface and robust error handling, it ensures smooth integration and efficient task execution.
 
-### Parameters
+## Parameters
 
 | Parameter          | Type                              | Description                                                                     |
 |--------------------|-----------------------------------|---------------------------------------------------------------------------------|

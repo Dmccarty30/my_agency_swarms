@@ -1,5 +1,4 @@
 
-
 # **Swarms External Agent Integration**
 
 Integrating external agents from other frameworks like **Langchain**, **Griptape**, and more is straightforward using **Swarms**. Below are step-by-step guides on how to bring these agents into Swarms by creating a new class, implementing the required methods, and ensuring compatibility.

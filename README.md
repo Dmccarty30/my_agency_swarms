@@ -1,34 +1,5 @@
-<div align="center">
-  <a href="https://swarms.world">
-    <img src="https://github.com/kyegomez/swarms/blob/master/images/swarmslogobanner.png" style="margin: 15px; max-width: 300px" width="50%" alt="Logo">
-  </a>
-</div>
-<p align="center">
-  <em>The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework </em>
-</p>
-
-<p align="center">
-    <a href="https://pypi.org/project/swarms/" target="_blank">
-        <img alt="Python" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-        <img alt="Version" src="https://img.shields.io/pypi/v/swarms?style=for-the-badge&color=3670A0">
-    </a>
-</p>
-<p align="center">
-<a href="https://twitter.com/swarms_corp/">🐦 Twitter</a>
-<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-<a href="https://discord.gg/agora-999382051935506503">📢 Discord</a>
-<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-<a href="https://swarms.world">Swarms Platform</a>
-<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-<a href="https://docs.swarms.world">📙 Documentation</a>
-</p>
-
-
-
 
 [![Join our Discord](https://img.shields.io/badge/Discord-Join%20our%20server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/agora-999382051935506503) [![Subscribe on YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@kyegomez3242) [![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kye-g-38759a207/) [![Follow on X.com](https://img.shields.io/badge/X.com-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/kyegomezb)
-
-
 
 [![GitHub issues](https://img.shields.io/github/issues/kyegomez/swarms)](https://github.com/kyegomez/swarms/issues) [![GitHub forks](https://img.shields.io/github/forks/kyegomez/swarms)](https://github.com/kyegomez/swarms/network) [![GitHub stars](https://img.shields.io/github/stars/kyegomez/swarms)](https://github.com/kyegomez/swarms/stargazers) [![GitHub license](https://img.shields.io/github/license/kyegomez/swarms)](https://github.com/kyegomez/swarms/blob/main/LICENSE)[![GitHub star chart](https://img.shields.io/github/stars/kyegomez/swarms?style=social)](https://star-history.com/#kyegomez/swarms)[![Dependency Status](https://img.shields.io/librariesio/github/kyegomez/swarms)](https://libraries.io/github/kyegomez/swarms) [![Downloads](https://static.pepy.tech/badge/swarms/month)](https://pepy.tech/project/swarms)
 
@@ -36,35 +7,34 @@
 
 [![Share on Reddit](https://img.shields.io/badge/-Share%20on%20Reddit-orange)](https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fkyegomez%2Fswarms&title=Swarms%20-%20the%20future%20of%20AI) [![Share on Hacker News](https://img.shields.io/badge/-Share%20on%20Hacker%20News-orange)](https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2Fkyegomez%2Fswarms&t=Swarms%20-%20the%20future%20of%20AI) [![Share on Pinterest](https://img.shields.io/badge/-Share%20on%20Pinterest-red)](https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fgithub.com%2Fkyegomez%2Fswarms&media=https%3A%2F%2Fexample.com%2Fimage.jpg&description=Swarms%20-%20the%20future%20of%20AI) [![Share on WhatsApp](https://img.shields.io/badge/-Share%20on%20WhatsApp-green)](https://api.whatsapp.com/send?text=Check%20out%20Swarms%20-%20the%20future%20of%20AI%20%23swarms%20%23AI%0A%0Ahttps%3A%2F%2Fgithub.com%2Fkyegomez%2Fswarms)
 
-
 ## ✨ Features
 
 | Category | Features | Benefits |
 |----------|----------|-----------|
-| 🏢 Enterprise Architecture | • Production-Ready Infrastructure<br>• High Reliability Systems<br>• Modular Design<br>• Comprehensive Logging | • Reduced downtime<br>• Easier maintenance<br>• Better debugging<br>• Enhanced monitoring |
-| 🤖 Agent Orchestration | • Hierarchical Swarms<br>• Parallel Processing<br>• Sequential Workflows<br>• Graph-based Workflows<br>• Dynamic Agent Rearrangement | • Complex task handling<br>• Improved performance<br>• Flexible workflows<br>• Optimized execution |
-| 🔄 Integration Capabilities | • Multi-Model Support<br>• Custom Agent Creation<br>• Extensive Tool Library<br>• Multiple Memory Systems | • Provider flexibility<br>• Custom solutions<br>• Extended functionality<br>• Enhanced memory management |
-| 📈 Scalability | • Concurrent Processing<br>• Resource Management<br>• Load Balancing<br>• Horizontal Scaling | • Higher throughput<br>• Efficient resource use<br>• Better performance<br>• Easy scaling |
-| 🛠️ Developer Tools | • Simple API<br>• Extensive Documentation<br>• Active Community<br>• CLI Tools | • Faster development<br>• Easy learning curve<br>• Community support<br>• Quick deployment |
-| 🔐 Security Features | • Error Handling<br>• Rate Limiting<br>• Monitoring Integration<br>• Audit Logging | • Improved reliability<br>• API protection<br>• Better monitoring<br>• Enhanced tracking |
-| 📊 Advanced Features | • SpreadsheetSwarm<br>• Group Chat<br>• Agent Registry<br>• Mixture of Agents | • Mass agent management<br>• Collaborative AI<br>• Centralized control<br>• Complex solutions |
-| 🔌 Provider Support | • OpenAI<br>• Anthropic<br>• ChromaDB<br>• Custom Providers | • Provider flexibility<br>• Storage options<br>• Custom integration<br>• Vendor independence |
-| 💪 Production Features | • Automatic Retries<br>• Async Support<br>• Environment Management<br>• Type Safety | • Better reliability<br>• Improved performance<br>• Easy configuration<br>• Safer code |
-| 🎯 Use Case Support | • Task-Specific Agents<br>• Custom Workflows<br>• Industry Solutions<br>• Extensible Framework | • Quick deployment<br>• Flexible solutions<br>• Industry readiness<br>• Easy customization |
-
+| 🏢 Enterprise Architecture | • Production-Ready Infrastructure • High Reliability Systems • Modular Design • Comprehensive Logging | • Reduced downtime • Easier maintenance • Better debugging • Enhanced monitoring |
+| 🤖 Agent Orchestration | • Hierarchical Swarms • Parallel Processing • Sequential Workflows • Graph-based Workflows • Dynamic Agent Rearrangement | • Complex task handling • Improved performance • Flexible workflows • Optimized execution |
+| 🔄 Integration Capabilities | • Multi-Model Support • Custom Agent Creation • Extensive Tool Library • Multiple Memory Systems | • Provider flexibility • Custom solutions • Extended functionality • Enhanced memory management |
+| 📈 Scalability | • Concurrent Processing • Resource Management • Load Balancing • Horizontal Scaling | • Higher throughput • Efficient resource use • Better performance • Easy scaling |
+| 🛠️ Developer Tools | • Simple API • Extensive Documentation • Active Community • CLI Tools | • Faster development • Easy learning curve • Community support • Quick deployment |
+| 🔐 Security Features | • Error Handling • Rate Limiting • Monitoring Integration • Audit Logging | • Improved reliability • API protection • Better monitoring • Enhanced tracking |
+| 📊 Advanced Features | • SpreadsheetSwarm • Group Chat • Agent Registry • Mixture of Agents | • Mass agent management • Collaborative AI • Centralized control • Complex solutions |
+| 🔌 Provider Support | • OpenAI • Anthropic • ChromaDB • Custom Providers | • Provider flexibility • Storage options • Custom integration • Vendor independence |
+| 💪 Production Features | • Automatic Retries • Async Support • Environment Management • Type Safety | • Better reliability • Improved performance • Easy configuration • Safer code |
+| 🎯 Use Case Support | • Task-Specific Agents • Custom Workflows • Industry Solutions • Extensible Framework | • Quick deployment • Flexible solutions • Industry readiness • Easy customization |
 
 ----
 
 ## Requirements
+
 - `python3.10` or above!
 - `$ pip install -U swarms` And, don't forget to install swarms!
 - `.env` file with API keys from your providers like `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`
--  Set an `.env` Variable with your desired workspace dir: `WORKSPACE_DIR="agent_workspace"` or do it in your terminal with `export WORKSPACE_DIR="agent_workspace"`
--  Finally, `swarms onboarding` to get you started.
+- Set an `.env` Variable with your desired workspace dir: `WORKSPACE_DIR="agent_workspace"` or do it in your terminal with `export WORKSPACE_DIR="agent_workspace"`
+- Finally, `swarms onboarding` to get you started.
 
 ## Guides and Walkthroughs
-Refer to our documentation for production grade implementation details.
 
+Refer to our documentation for production grade implementation details.
 
 | Section              | Links                                                                                      |
 |----------------------|--------------------------------------------------------------------------------------------|
@@ -79,13 +49,11 @@ Refer to our documentation for production grade implementation details.
 | Choosing the Right Swarm for Your Business Problem¶ | [CLICK HERE](https://docs.swarms.world/en/latest/swarms/concept/swarm_architectures/)                                                 |
 | AgentRearrange Docs| [CLICK HERE](https://docs.swarms.world/en/latest/swarms/structs/agent_rearrange/)                                                 |
 
-
 ## Install 💻
 
 ```bash
-$ pip3 install -U swarms
+pip3 install -U swarms
 ```
-
 
 ## Onboarding
 
@@ -106,6 +74,7 @@ For more documentation on the CLI [CLICK HERE](https://docs.swarms.world/en/late
 ---
 
 # Usage Examples 🤖
+
 Here are some example scripts to get you started. For more comprehensive documentation, visit our [docs](https://docs.swarms.world/en/latest/).
 
 | Example Name | Description | Type of Examples | Link |
@@ -113,16 +82,18 @@ Here are some example scripts to get you started. For more comprehensive documen
 | Swarms Examples | A collection of simple examples to demonstrate Swarms capabilities. | Basic Usage | [https://github.com/The-Swarm-Corporation/swarms-examples?tab=readme-ov-file](https://github.com/The-Swarm-Corporation/swarms-examples?tab=readme-ov-file) |
 | Cookbook | A comprehensive guide with recipes for various use cases and scenarios. | Advanced Usage | [https://github.com/The-Swarm-Corporation/Cookbook](https://github.com/The-Swarm-Corporation/Cookbook) |
 
----
+----
 
 ## `Agent` Class
+
 The `Agent` class is a fundamental component of the Swarms framework, designed to execute tasks autonomously. It fuses llms, tools and long-term memory capabilities to create a full stack agent. The `Agent` class is highly customizable, allowing for fine-grained control over its behavior and interactions.
 
 ### `run` Method
+
 The `run` method is the primary entry point for executing tasks with an `Agent` instance. It accepts a task string as the main input task and processes it according to the agent's configuration. And, it can also accept an `img` parameter such as `img="image_filepath.png` to process images if you have a VLM
 
-
 ### Settings and Customization
+
 The `Agent` class offers a range of settings to tailor its behavior to specific needs. Some key settings include:
 
 | Setting | Description | Default Value |
@@ -141,7 +112,6 @@ The `Agent` class offers a range of settings to tailor its behavior to specific 
 | `context_length` | The maximum length of the context to consider for tasks. | 200000 |
 | `return_step_meta` | Controls whether to return step metadata in the output. | False |
 | `output_type` | The type of output to return (e.g., "json", "string"). | "string" |
-
 
 ```python
 import os
@@ -188,13 +158,15 @@ agent.run(
 )
 
 ```
+
 -----
+
 ### Integrating RAG with Swarms for Enhanced Long-Term Memory
+
 `Agent` equipped with quasi-infinite long term memory using RAG (Relational Agent Graph) for advanced document understanding, analysis, and retrieval capabilities.
 
-
-
 **Mermaid Diagram for RAG Integration**
+
 ```mermaid
 graph TD
     A[Initialize Agent with RAG] --> B[Receive Task]
@@ -206,6 +178,7 @@ graph TD
 ```
 
 **Step 1: Initialize the ChromaDB Client**
+
 ```python
 import os
 
@@ -220,6 +193,7 @@ chromadb = ChromaDB(
 ```
 
 **Step 2: Define the Model**
+
 ```python
 from swarm_models import Anthropic
 from swarms.prompts.finance_agent_sys_prompt import (
@@ -231,6 +205,7 @@ model = Anthropic(anthropic_api_key=os.getenv("ANTHROPIC_API_KEY"))
 ```
 
 **Step 3: Initialize the Agent with RAG**
+
 ```python
 from swarms import Agent
 
@@ -261,12 +236,11 @@ agent.run(
 )
 ```
 
-
 -------
 
 ### Misc Agent Settings
-We provide vast array of features to save agent states using json, yaml, toml, upload pdfs, batched jobs, and much more!
 
+We provide vast array of features to save agent states using json, yaml, toml, upload pdfs, batched jobs, and much more!
 
 **Method Table**
 
@@ -288,8 +262,6 @@ We provide vast array of features to save agent states using json, yaml, toml, u
 | `get_docs_from_doc_folders()` | Fetches all the documents from the doc folders. |
 | `activate_agentops()` | Activates agent operations. |
 | `check_end_session_agentops()` | Checks the end of the session for agent operations. |
-
-
 
 ```python
 # # Convert the agent object to a dictionary
@@ -348,9 +320,8 @@ print(agent.to_toml())
 
 ```
 
-
-
 ### `Agent`with Pydantic BaseModel as Output Type
+
 The following is an example of an agent that intakes a pydantic basemodel and outputs it at the same time:
 
 ```python
@@ -414,6 +385,7 @@ print(f"Generated data: {generated_data}")
 ```
 
 ### Multi Modal Autonomous Agent
+
 Run the agent with multiple modalities useful for various real-world tasks in manufacturing, logistics, and health.
 
 ```python
@@ -455,12 +427,12 @@ agent = Agent(
 # Run the workflow on a task
 agent.run(task, img)
 ```
+
 ----
 
-
 ### `ToolAgent`
-ToolAgent is an agent that can use tools through JSON function calling. It intakes any open source model from huggingface and is extremely modular and plug in and play. We need help adding general support to all models soon.
 
+ToolAgent is an agent that can use tools through JSON function calling. It intakes any open source model from huggingface and is extremely modular and plug in and play. We need help adding general support to all models soon.
 
 ```python
 from pydantic import BaseModel, Field
@@ -515,23 +487,21 @@ print(f"Generated data: {generated_data}")
 
 ```
 
-
 ## Integrating External Agents
+
 Integrating external agents from other agent frameworks is easy with swarms.
 
 Steps:
 
 1. Create a new class that inherits `Agent`
-2. Create a `.run(task: str) -> str` method that runs the agent and returns the response. 
+2. Create a `.run(task: str) -> str` method that runs the agent and returns the response.
 3. The new Agent must return a string of the response. But you may add additional methods to save the output to JSON.
-
 
 ### Griptape Example
 
 For example, here's an example on how to create an agent from griptape.
 
 Here’s how you can create a custom **Griptape** agent that integrates with the **Swarms** framework by inheriting from the `Agent` class in **Swarms** and overriding the `run(task: str) -> str` method.
-
 
 ```python
 from swarms import (
@@ -581,17 +551,13 @@ output = griptape_swarms_agent.run(
 print(output)
 ```
 
-### Key Components:
+### Key Components
+
 1. **GriptapeSwarmsAgent**: A custom class that inherits from the `SwarmsAgent` class and integrates the Griptape agent.
 2. **run(task: str) -> str**: A method that takes a task string, processes it (e.g., splitting into a URL and filename), and runs the Griptape agent with the provided inputs.
 3. **Griptape Tools**: The tools integrated into the Griptape agent (e.g., `WebScraperTool`, `PromptSummaryTool`, `FileManagerTool`) allow for web scraping, summarization, and file management.
 
 You can now easily plug this custom Griptape agent into the **Swarms Framework** and use it to run tasks!
-
-
-
-
-
 
 ## Understanding Swarms
 
@@ -615,7 +581,6 @@ Swarm architectures are designed to establish and manage communication between a
 
 Swarm architectures leverage these communication patterns to ensure that agents work together efficiently, adapting to the specific requirements of the task at hand. By defining clear communication protocols and interaction models, swarm architectures enable the seamless orchestration of multiple agents, leading to enhanced performance and problem-solving capabilities.
 
-
 | **Name**                      | **Description**                                                                                                                                                         | **Code Link**                                                                                      | **Use Cases**                                                                                     |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | Hierarchical Swarms           | A system where agents are organized in a hierarchy, with higher-level agents coordinating lower-level agents to achieve complex tasks.                                   | [Code Link](https://docs.swarms.world/en/latest/swarms/concept/swarm_architectures/#hierarchical-swarm) | Manufacturing process optimization, multi-level sales management, healthcare resource coordination |
@@ -631,9 +596,8 @@ Swarm architectures leverage these communication patterns to ensure that agents 
 | Forest Swarm                  | A swarm structure that organizes agents in a tree-like hierarchy for complex decision-making processes.                                                                 | [Code Link](https://docs.swarms.world/en/latest/swarms/structs/forest_swarm/)                      | Multi-stage workflows, hierarchical reinforcement learning                                        |
 | Swarm Router                  | Routes and chooses the swarm architecture based on the task requirements and available agents.                                                                        | [Code Link](https://docs.swarms.world/en/latest/swarms/structs/swarm_router/)                       | Dynamic task routing, adaptive swarm architecture selection, optimized agent allocation            |
 
-
-
 ### `SequentialWorkflow`
+
 Sequential Workflow enables you to sequentially execute tasks with `Agent` and then pass the output into the next agent and onwards until you have specified your max loops.
 
 ```mermaid
@@ -645,13 +609,11 @@ graph LR
     E --> F[End]
 ```
 
-
-
 ### Methods
 
 | Method | Description | Parameters | Return Value |
 |--------|-------------|------------|--------------|
-| `__init__` | Initialize the SequentialWorkflow | `agents`: List of Agent objects<br>`max_loops`: Maximum number of iterations<br>`verbose`: Boolean for verbose output | None |
+| `__init__` | Initialize the SequentialWorkflow | `agents`: List of Agent objects `max_loops`: Maximum number of iterations `verbose`: Boolean for verbose output | None |
 | `run` | Execute the workflow | `input_data`: Initial input for the first agent | Final output after all agents have processed |
 
 ### Inputs
@@ -667,7 +629,6 @@ graph LR
 The `run` method returns the final output after all agents have processed the input sequentially.
 
 In this example, each `Agent` represents a task that is executed sequentially. The output of each agent is passed to the next agent in the sequence until the maximum number of loops is reached. This workflow is particularly useful for tasks that require a series of steps to be executed in a specific order, such as data processing pipelines or complex calculations that rely on the output of previous steps.
-
 
 ```python
 import os
@@ -861,13 +822,11 @@ print(
 
 The `AgentRearrange` orchestration technique, inspired by Einops and einsum, allows you to define and map out the relationships between various agents. It provides a powerful tool for orchestrating complex workflows, enabling you to specify linear and sequential relationships such as `a -> a1 -> a2 -> a3`, or concurrent relationships where the first agent sends a message to 3 agents simultaneously: `a -> a1, a2, a3`. This level of customization allows for the creation of highly efficient and dynamic workflows, where agents can work in parallel or in sequence as needed. The `AgentRearrange` technique is a valuable addition to the swarms library, providing a new level of flexibility and control over the orchestration of agents. For more detailed information and examples, please refer to the [official documentation](https://docs.swarms.world/en/latest/swarms/structs/agent_rearrange/).
 
-
-
 ### Methods
 
 | Method | Description | Parameters | Return Value |
 |--------|-------------|------------|--------------|
-| `__init__` | Initialize the AgentRearrange | `agents`: List of Agent objects<br>`flow`: String describing the agent flow | None |
+| `__init__` | Initialize the AgentRearrange | `agents`: List of Agent objects `flow`: String describing the agent flow | None |
 | `run` | Execute the workflow | `input_data`: Initial input for the first agent | Final output after all agents have processed |
 
 ### Inputs
@@ -880,9 +839,6 @@ The `AgentRearrange` orchestration technique, inspired by Einops and einsum, all
 ### Output
 
 The `run` method returns the final output after all agents have processed the input according to the specified flow.
-
-
-
 
 ```python
 
@@ -954,11 +910,10 @@ print(output)
 ```
 
 ## `HierarhicalSwarm`
+
 Coming soon...
 
-
 ## `GraphSwarm`
-
 
 The `GraphSwarm` is a workflow management system designed to orchestrate complex tasks by leveraging the power of graph theory. It enables the creation of a directed acyclic graph (DAG) to model dependencies between tasks and agents. This allows for efficient task assignment, execution, and monitoring.
 
@@ -973,14 +928,12 @@ Here's a breakdown of how the `GraphSwarm` works:
 
 The `GraphSwarm` offers several benefits, including:
 
-* **Concurrency**: Enables the execution of tasks concurrently, improving overall workflow efficiency.
-* **Flexibility**: Allows for dynamic task assignment based on agent availability and task requirements.
-* **Scalability**: Supports the addition of new agents and tasks as needed, making it suitable for large-scale workflows.
-* **Visualization**: Provides a graphical representation of the workflow, facilitating understanding and debugging.
+- **Concurrency**: Enables the execution of tasks concurrently, improving overall workflow efficiency.
+- **Flexibility**: Allows for dynamic task assignment based on agent availability and task requirements.
+- **Scalability**: Supports the addition of new agents and tasks as needed, making it suitable for large-scale workflows.
+- **Visualization**: Provides a graphical representation of the workflow, facilitating understanding and debugging.
 
 By leveraging the `GraphSwarm`, complex workflows can be efficiently managed, and tasks can be executed in a coordinated and scalable manner.
-
-
 
 ### Methods
 
@@ -1005,8 +958,6 @@ By leveraging the `GraphSwarm`, complex workflows can be efficiently managed, an
 ### Output
 
 The `run` method returns a dictionary containing the execution results of all nodes in the graph.
-
-
 
 ```python
 import os
@@ -1053,15 +1004,14 @@ print("Execution results:", results)
 ```
 
 ## `MixtureOfAgents`
+
 This is an implementation based on the paper: "Mixture-of-Agents Enhances Large Language Model Capabilities" by together.ai, available at [https://arxiv.org/abs/2406.04692](https://arxiv.org/abs/2406.04692). It achieves state-of-the-art (SOTA) results on AlpacaEval 2.0, MT-Bench, and FLASK, surpassing GPT-4 Omni. This architecture is particularly suitable for tasks that require parallelization followed by sequential processing in another loop.
-
-
 
 ### Methods
 
 | Method | Description | Parameters | Return Value |
 |--------|-------------|------------|--------------|
-| `__init__` | Initialize the MixtureOfAgents | `name`: Name of the swarm<br>`agents`: List of Agent objects<br>`layers`: Number of processing layers<br>`final_agent`: Agent for final processing | None |
+| `__init__` | Initialize the MixtureOfAgents | `name`: Name of the swarm `agents`: List of Agent objects `layers`: Number of processing layers `final_agent`: Agent for final processing | None |
 | `run` | Execute the swarm | `task`: Input task for the swarm | Final output after all agents have processed |
 
 ### Inputs
@@ -1076,7 +1026,6 @@ This is an implementation based on the paper: "Mixture-of-Agents Enhances Large 
 ### Output
 
 The `run` method returns the final output after all agents have processed the input according to the specified layers and final agent.
-
 
 ```python
 
@@ -1226,22 +1175,21 @@ print(out)
 
 ```
 
-
 ## SpreadSheetSwarm
+
 The `SpreadSheetSwarm` is designed for concurrent management and oversight of thousands of agents, facilitating a one-to-many approach for efficient task processing and output analysis.
 
 ### Key Features
 
-* **Concurrency**: Enables the simultaneous execution of multiple agents, significantly reducing processing time and increasing overall system efficiency.
-* **One-to-Many**: Allows a single task to be dynamically distributed among multiple agents, ensuring that each agent is utilized to its full potential.
-* **Scalability**: Supports the integration of thousands of agents, making it an ideal solution for large-scale task processing and data analysis.
-
+- **Concurrency**: Enables the simultaneous execution of multiple agents, significantly reducing processing time and increasing overall system efficiency.
+- **One-to-Many**: Allows a single task to be dynamically distributed among multiple agents, ensuring that each agent is utilized to its full potential.
+- **Scalability**: Supports the integration of thousands of agents, making it an ideal solution for large-scale task processing and data analysis.
 
 ### Methods
 
 | Method | Description | Parameters | Return Value |
 |--------|-------------|------------|--------------|
-| `__init__` | Initialize the SpreadSheetSwarm | `name`: Name of the swarm<br>`description`: Description of the swarm<br>`agents`: List of Agent objects<br>`autosave_on`: Boolean to enable autosave<br>`save_file_path`: Path to save the spreadsheet<br>`run_all_agents`: Boolean to run all agents or not<br>`max_loops`: Maximum number of loops | None |
+| `__init__` | Initialize the SpreadSheetSwarm | `name`: Name of the swarm `description`: Description of the swarm `agents`: List of Agent objects `autosave_on`: Boolean to enable autosave `save_file_path`: Path to save the spreadsheet `run_all_agents`: Boolean to run all agents or not `max_loops`: Maximum number of loops | None |
 | `run` | Execute the swarm | `task`: Input task for the swarm | Dictionary of agent outputs |
 
 ### Inputs
@@ -1259,7 +1207,6 @@ The `SpreadSheetSwarm` is designed for concurrent management and oversight of th
 ### Output
 
 The `run` method returns a dictionary containing the outputs of each agent that processed the task.
-
 
 [Learn more at the docs here:](https://docs.swarms.world/en/latest/swarms/structs/spreadsheet_swarm/)
 
@@ -1426,11 +1373,9 @@ swarm.run(
 
 ```
 
-
 ## `ForestSwarm`
+
 The `ForestSwarm` architecture is designed for efficient task assignment by dynamically selecting the most suitable agent from a collection of trees. This is achieved through asynchronous task processing, where agents are chosen based on their relevance to the task at hand. The relevance is determined by calculating the similarity between the system prompts associated with each agent and the keywords present in the task itself. For a more in-depth understanding of how `ForestSwarm` works, please refer to the [official documentation](https://docs.swarms.world/en/latest/swarms/structs/forest_swarm/).
-
-
 
 ### Methods
 
@@ -1449,7 +1394,6 @@ The `ForestSwarm` architecture is designed for efficient task assignment by dyna
 ### Output
 
 The `run` method returns the output from the most relevant agent selected based on the input task.
-
 
 ```python
 from swarms.structs.tree_swarm import TreeAgent, Tree, ForestSwarm
@@ -1564,13 +1508,12 @@ print(output)
 
 ```
 
-
-
-
 ## `SwarmRouter`
+
 The `SwarmRouter` class is a flexible routing system designed to manage different types of swarms for task execution. It provides a unified interface to interact with various swarm types, including `AgentRearrange`, `MixtureOfAgents`, `SpreadSheetSwarm`, `SequentialWorkflow`, and `ConcurrentWorkflow`. We will be continuously adding more and more swarm architectures here as we progress with new architectures.
 
-#### Attributes:
+#### Attributes
+
 - `name` (str): Name of the SwarmRouter instance.
 - `description` (str): Description of the SwarmRouter instance.
 - `max_loops` (int): Maximum number of loops to perform.
@@ -1579,13 +1522,13 @@ The `SwarmRouter` class is a flexible routing system designed to manage differen
 - `swarm` (Union[AgentRearrange, MixtureOfAgents, SpreadSheetSwarm, SequentialWorkflow, ConcurrentWorkflow]): Instantiated swarm object.
 - `logs` (List[SwarmLog]): List of log entries captured during operations.
 
-#### Methods:
+#### Methods
+
 - `__init__(self, name: str, description: str, max_loops: int, agents: List[Agent], swarm_type: SwarmType, *args, **kwargs)`: Initialize the SwarmRouter.
 - `_create_swarm(self, *args, **kwargs)`: Create and return the specified swarm type.
 - `_log(self, level: str, message: str, task: str, metadata: Dict[str, Any])`: Create a log entry and add it to the logs list.
 - `run(self, task: str, *args, **kwargs)`: Run the specified task on the selected swarm.
 - `get_logs(self)`: Retrieve all logged entries.
-
 
 ```python
 import os
@@ -1827,22 +1770,22 @@ mixture_router = SwarmRouter(
 result = mixture_router.run("Evaluate the potential acquisition of TechStartup Inc.")
 ```
 
-
-
 ----------
 
 ## Onboarding Session
-Get onboarded now with the creator and lead maintainer of Swarms, Kye Gomez, who will show you how to get started with the installation, usage examples, and starting to build your custom use case! [CLICK HERE](https://cal.com/swarms/swarms-onboarding-session)
 
+Get onboarded now with the creator and lead maintainer of Swarms, Kye Gomez, who will show you how to get started with the installation, usage examples, and starting to build your custom use case! [CLICK HERE](https://cal.com/swarms/swarms-onboarding-session)
 
 ---
 
 ## Documentation
+
 Documentation is located here at: [docs.swarms.world](https://docs.swarms.world)
 
 -----
 
 ## Folder Structure
+
 The swarms package has been meticlously crafted for extreme use-ability and understanding, the swarms package is split up into various modules such as `swarms.agents` that holds pre-built agents, `swarms.structs` that holds a vast array of structures like `Agent` and multi agent structures. The 3 most important are `structs`, `models`, and `agents`.
 
 ```sh
@@ -1862,7 +1805,7 @@ The swarms package has been meticlously crafted for extreme use-ability and unde
 
 ----
 
-## 🫶 Contributions:
+## 🫶 Contributions
 
 The easiest way to contribute is to pick any issue with the `good first issue` tag 💪. Read the Contributing guidelines [here](/CONTRIBUTING.md). Bug Report? [File here](https://github.com/swarms/gateway/issues) | Feature Request? [File here](https://github.com/swarms/gateway/issues)
 
@@ -1870,16 +1813,15 @@ Swarms is an open-source project, and contributions are VERY welcome. If you wan
 
 ----
 
-
-
 ## Accelerate Backlog
+
 Accelerate Bugs, Features, and Demos to implement by supporting us here:
 
 <a href="https://polar.sh/kyegomez"><img src="https://polar.sh/embed/fund-our-backlog.svg?org=kyegomez" /></a>
 
 ## Community
 
-Join our growing community around the world, for real-time support, ideas, and discussions on Swarms 😊 
+Join our growing community around the world, for real-time support, ideas, and discussions on Swarms 😊
 
 - View our official [Blog](https://docs.swarms.world)
 - Chat live with us on [Discord](https://discord.gg/kS3rwKs3ZC)
