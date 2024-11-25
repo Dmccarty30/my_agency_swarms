@@ -39,7 +39,7 @@ researcher_agent = Agent(
     user_name="research_team",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="json",
 )
 
 # Scraper Agent
@@ -60,7 +60,7 @@ scraper_agent = Agent(
     user_name="research_team",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="json",
 )
 
 # Parser Agent
@@ -81,7 +81,7 @@ parser_agent = Agent(
     user_name="research_team",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="json",
 )
 
 # Composer Agent
@@ -91,7 +91,7 @@ composer_agent = Agent(
     system_prompt="""
     You are a Composer Agent.
     Task: Compose a comprehensive paper based on the structured data provided.
-    Ensure clarity, coherence, and proper formatting in the final document.
+    Ensure clarity, coherence, and proper markdown formatting in the final document.
     """,
     llm=model,
     max_loops=1,
@@ -102,7 +102,7 @@ composer_agent = Agent(
     user_name="research_team",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="md",
 )
 
 # Initialize the Swarm Router with the defined agents
@@ -116,7 +116,7 @@ swarm_router = SequentialWorkflow(
         parser_agent,
         composer_agent,
     ],
-    output_type="all",
+    output_type=".json",
 )
 
 def execute_swarm_task(task_description: str):

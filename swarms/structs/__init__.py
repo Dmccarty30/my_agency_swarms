@@ -66,6 +66,7 @@ from swarms.structs.swarming_architectures import (
     star_swarm,
 )
 from swarms.structs.task import Task
+from enum import Enum
 from swarms.structs.utils import (
     detect_markdown,
     distribute_tasks,

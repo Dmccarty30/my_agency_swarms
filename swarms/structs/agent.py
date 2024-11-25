@@ -1,3 +1,4 @@
+from dataclasses import Field
 from datetime import datetime
 import asyncio
 import json
@@ -22,7 +23,8 @@ from typing import (
 
 import toml
 import yaml
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
+from swarms.structs.enum import OutputTypeEnum
 from swarm_models.tiktoken_wrapper import TikTokenizer
 from termcolor import colored
 
@@ -279,16 +281,13 @@ class Agent:
         evaluator: Optional[Callable] = None,  # Custom LLM or agent
         stopping_func: Optional[Callable] = None,
         custom_loop_condition: Optional[Callable] = None,
-        sentiment_threshold: Optional[
-            float
-        ] = None,  # Evaluate on output using an external model
+        sentiment_threshold: Optional[float] = None,  # Evaluate on output using an external model
         custom_exit_command: Optional[str] = "exit",
         sentiment_analyzer: Optional[Callable] = None,
-        limit_tokens_from_string: Optional[Callable] = None,
-        # [Tools]
+        limit_tokens_from_string: Optional[Callable] = None,# [Tools]
         custom_tools_prompt: Optional[Callable] = None,
         tool_schema: ToolUsageType = None,
-        output_type: agent_output_type = "str",
+        output_type: Field = Field(default=OutputTypeEnum.JSON),
         function_calling_type: str = "json",
         output_cleaner: Optional[Callable] = None,
         function_calling_format_type: Optional[str] = "OpenAI",
@@ -322,8 +321,7 @@ class Agent:
         step_pool: List[Step] = [],
         print_every_step: Optional[bool] = False,
         time_created: Optional[float] = time.strftime(
-            "%Y-%m-%d %H:%M:%S", time.localtime()
-        ),
+            "%Y-%m-%d %H:%M:%S", time.localtime()),
         agent_output: ManySteps = None,
         executor_workers: int = os.cpu_count(),
         data_memory: Optional[Callable] = None,

@@ -35,7 +35,7 @@ data_extractor_agent = Agent(
     user_name="pe_firm",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 summarizer_agent = Agent(
@@ -55,7 +55,7 @@ summarizer_agent = Agent(
     user_name="pe_firm",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 financial_analyst_agent = Agent(
@@ -75,7 +75,7 @@ financial_analyst_agent = Agent(
     user_name="pe_firm",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 market_analyst_agent = Agent(
@@ -95,7 +95,7 @@ market_analyst_agent = Agent(
     user_name="pe_firm",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 operational_analyst_agent = Agent(
@@ -115,7 +115,7 @@ operational_analyst_agent = Agent(
     user_name="pe_firm",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type="all",
 )
 
 # Initialize the SwarmRouter

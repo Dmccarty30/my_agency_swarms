@@ -27,11 +27,11 @@ data_extractor_agent = Agent(
     autosave=True,
     verbose=True,
     dynamic_temperature_enabled=True,
-    saved_state_path="data_extractor_agent.json",
+    saved_state_path="data_extractor_agent..json",
     user_name="pe_firm",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type=".json",
 )
 
 summarizer_agent = Agent(
@@ -42,11 +42,11 @@ summarizer_agent = Agent(
     autosave=True,
     verbose=True,
     dynamic_temperature_enabled=True,
-    saved_state_path="summarizer_agent.json",
+    saved_state_path="summarizer_agent..json",
     user_name="pe_firm",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type=".json",
 )
 
 financial_analyst_agent = Agent(
@@ -57,11 +57,11 @@ financial_analyst_agent = Agent(
     autosave=True,
     verbose=True,
     dynamic_temperature_enabled=True,
-    saved_state_path="financial_analyst_agent.json",
+    saved_state_path="financial_analyst_agent..json",
     user_name="pe_firm",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type=".json",
 )
 
 market_analyst_agent = Agent(
@@ -72,11 +72,11 @@ market_analyst_agent = Agent(
     autosave=True,
     verbose=True,
     dynamic_temperature_enabled=True,
-    saved_state_path="market_analyst_agent.json",
+    saved_state_path="market_analyst_agent..json",
     user_name="pe_firm",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type=".json",
 )
 
 operational_analyst_agent = Agent(
@@ -87,11 +87,11 @@ operational_analyst_agent = Agent(
     autosave=True,
     verbose=True,
     dynamic_temperature_enabled=True,
-    saved_state_path="operational_analyst_agent.json",
+    saved_state_path="operational_analyst_agent..json",
     user_name="pe_firm",
     retry_attempts=1,
     context_length=200000,
-    output_type="string",
+    output_type=".json",
 )
 
 # Initialize the SwarmRouter
@@ -108,7 +108,7 @@ router = SwarmRouter(
     ],
     swarm_type="SequentialWorkflow",  # or "SequentialWorkflow" or "ConcurrentWorkflow" or
     auto_generate_prompts=True,
-    output_type="all",
+    output_type=".json",
 )
 
 # Example usage
