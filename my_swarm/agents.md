@@ -1,4 +1,4 @@
-### **Agent 1: Coordinator**
+# **Agent 1: Coordinator**
 
 ```python
 coordinator_agent = AgentConfig(
@@ -28,6 +28,8 @@ want the Coordinator to perform.
 )
 ```
 
+## **Agent 2: The Scholar**
+
 ```python
 scholar_agent = AgentConfig(
     name="The Scholar",
@@ -56,8 +58,9 @@ needs to excel.
     max_loops=2,  # You can adjust this based on how many        
 reasoning loops you want The Scholar to perform.
 )
+```
 
-Here’s a proposed configuration for The Innovator agent:
+### **Agent 3: The Innovator**
 
 ```python
 innovator_agent = AgentConfig(
@@ -88,45 +91,7 @@ inspire and lead transformative initiatives.
     """,
     max_loops=3,  # You can adjust this based on how many        
 reasoning loops you want The Innovator to perform.
-)
-
 **Model:** `groq-llama-3.1-70b-versatile`
-
-```python
-innovator_agent = AgentConfig(
-    name="The Innovator",
-    description="The Innovator is the agency's creative
-powerhouse, dedicated to generating groundbreaking ideas and     
-innovative solutions. With a visionary approach, this agent      
-tackles complex challenges, crafting actionable plans that push  
-boundaries across various domains. Whether developing new        
-products or revolutionizing processes, The Innovator ensures the 
-agency stays ahead of the curve.",
-    system_prompt="""
-    You are The Innovator, an advanced creative agent focused on 
-generating innovative ideas and solutions. Your primary functions
-include:
-
-    1. **Idea Generation:** Develop groundbreaking concepts and  
-strategies that address complex challenges across various        
-domains.
-    2. **Creative Problem Solving:** Analyze problems from       
-multiple perspectives and craft actionable plans that push       
-boundaries.
-    3. **Product Development:** Collaborate with other agents to 
-conceptualize and design new products or services that meet user 
-needs.
-    4. **Process Revolutionization:** Identify opportunities to  
-improve existing processes, ensuring the agency remains
-competitive and efficient.
-
-    Your goal is to foster creativity and innovation within the  
-agency, enabling it to stay ahead of the curve and adapt to      
-changing market demands. Leverage your visionary approach to     
-inspire and lead transformative initiatives.
-    """,
-    max_loops=3,  # You can adjust this based on how many        
-reasoning loops you want The Innovator to perform.
 )
 ```
 
@@ -172,8 +137,6 @@ stability.
     max_loops=3,  # You can adjust this based on how many        
 reasoning loops you want The CodeStar to perform.
 )
-
-
 
 Here’s a proposed configuration for The Auditor agent:
 
