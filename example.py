@@ -23,6 +23,7 @@ model = OpenAIChat(
 # Initialize the agent
 agent = Agent(
     agent_name="Financial-Analysis-Agent",
+    description="Analyzes financial data and provides insights and recommendations.",
     system_prompt=FINANCIAL_AGENT_SYS_PROMPT,
     llm=model,
     max_loops=1,

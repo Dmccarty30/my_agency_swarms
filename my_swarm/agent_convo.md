@@ -116,7 +116,7 @@
 - **Description:** Combines retrieved data with generative capabilities.
 - **Role:** Create enriched outputs using document content and external references.
 
-## CODE COMMANDOS
+## CODE CONNOISEURS
 
 ### 1. The Code Writer
 
